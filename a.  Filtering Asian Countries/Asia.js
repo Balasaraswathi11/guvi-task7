@@ -1,6 +1,6 @@
 function reqListener() {
     const  countries=JSON.parse(this.responseText)
-   
+    console.log(countries)
     const asiancountry=countries.filter(function(country){return country.region==="Asia"
     })
     console.log(asiancountry)
